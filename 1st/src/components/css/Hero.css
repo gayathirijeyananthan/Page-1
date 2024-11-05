@@ -1,13 +1,30 @@
 .first{
-    background-color: #D4BEE4;
+    background-color: #f2e6fa;
     height:730px;
 }
 
-.first {
+
+.bg{
     background-image: url('../../assets/bg.jpg'); /* Path to your image */
     background-size: cover;            /* Cover the entire section */
     background-position: center;       /* Center the image */
     background-repeat: no-repeat;      /* Prevent the image from repeating */
     width: 100%;    
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);                    /* Full width */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);   
+    filter: blur(4px); /* Adjust the blur intensity as needed */
+   
+  }
+
+  
+  
+  .text {
+    position: relative;  /* Ensure text is above the overlay */
+    z-index: 2;         /* Make sure text is on top */
+    color: #640D5F;
+    align-items: center;  
+    padding-top: 80px;
+    padding-left: 500px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:100px;
+    
   }
