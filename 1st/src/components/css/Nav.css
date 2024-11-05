@@ -1,0 +1,10 @@
+/* Button.css */
+.custom-outline {
+    border-color: #ff5733 !important; /* Example color */
+    color: #ff5733 !important;
+}
+
+.custom-outline:hover {
+    background-color: #ff5733 !important;
+    color: #fff !important;
+}
