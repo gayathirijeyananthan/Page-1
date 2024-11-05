@@ -56,7 +56,7 @@ export const Nav = () => {
             aria-label="Search"
           />
           <button
-            className="btn custom-outline"
+            className="btn custom"
             style={{
               border: "2px solid #FF9C73",
               color: "#FF9C73",
