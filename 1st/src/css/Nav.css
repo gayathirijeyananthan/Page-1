@@ -1,9 +1,0 @@
-.custom-outline {
-    border-color: "#FF9C73" !important; /* Replace #yourColor with the color you want */
-    color: "#FF9C73" !important; /* Optional: Customize the text color */
-}
-
-.custom-outline:hover {
-    background-color: "#FF9C73" !important; /* Optional: Customize background color on hover */
-    color: "#FF9C73" !important; /* Optional: Customize text color on hover */
-}
