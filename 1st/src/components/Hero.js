@@ -4,8 +4,10 @@ import '../components/css/Hero.css'
 
 export const Hero = () => {
   return (
-    <div class="firstSection">
-      <div></div>
+    <div className="first">
+      <div>
+       <p>Hello World</p>
+      </div>
       <div></div>
     </div>
   );
