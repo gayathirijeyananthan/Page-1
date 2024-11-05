@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from '../assets/logo.png'
 
 export const Nav = () => {
   return (
     <nav class="navbar navbar-expand-lg" style={{ backgroundColor: '#6A1E55',height:"90px" }}>
     <div class="container-fluid"  >
-      <a class="navbar-brand" href="#" style={{ color:"#FF9C73"}}>Navbar</a>
+      <img src={logo} alt="logo"  style={{ marginTop:'30px', height:"140px" }}/>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -15,7 +16,7 @@ export const Nav = () => {
             <a class="nav-link active" aria-current="page" href="#" style={{ color:"#FF9C73"}}>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style={{ color:"#FF9C73"}}>Product</a>
+            <a class="nav-link" href="#" style={{ color:"#FF9C73"}}>Courses</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" style={{ color:"#FF9C73"}}>Contact</a>
