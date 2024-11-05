@@ -24,5 +24,11 @@
       padding: 10px;
     }
   }
+
+  .custom-outline:hover {
+    background-color: #FF9C73;      /* Hover background color */
+    color: #fff;                    /* Hover text color */
+    border-color: #FF9C73;          /* Optional: change border color */
+  }
   
   
