@@ -6,7 +6,12 @@ export const Nav = () => {
   return (
     <nav
       className="navbar navbar-expand-lg"
-      style={{ backgroundColor: "#ffff", height: "90px", position: "fixed", width: "100%" }}
+      style={{
+        backgroundColor: "#ffff",
+        height: "90px",
+        position: "fixed",
+        width: "100%",
+      }}
     >
       <div className="container-fluid">
         <img src={logo} alt="logo" className="navbar-logo" />
@@ -27,24 +32,23 @@ export const Nav = () => {
             style={{ listStyleType: "none", padding: "0" }}
           >
             <li className="nav-item">
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="#"
-              >
+              <a className="nav-link active" aria-current="page" href="#">
                 Courses
               </a>
             </li>
+            <span class="material-symbols-outlined" style={{marginTop:"10px"}}>arrow_drop_down</span>
             <li className="nav-item">
               <a className="nav-link active" href="#">
                 Teachers
               </a>
             </li>
+            <span class="material-symbols-outlined" style={{marginTop:"10px"}}>arrow_drop_down</span>
             <li className="nav-item">
               <a className="nav-link active" href="#">
                 Offers
               </a>
             </li>
+            <span class="material-symbols-outlined" style={{marginTop:"10px"}}>arrow_drop_down</span>
             <li className="nav-item">
               <a className="nav-link active" href="#">
                 Contact
@@ -52,17 +56,21 @@ export const Nav = () => {
             </li>
           </ul>
         </div>
-        <form className="d-flex ms-auto" role="search" style={{marginRight:"200px"}}>
+        <form
+          className="d-flex ms-auto"
+          role="search"
+          style={{ marginRight: "200px" }}
+        >
           <div className="d-flex align-items-center">
             <button
               className="btn custom"
               style={{
                 position: "relative",
-                background: "linear-gradient(to right, #6C48C5, #ED3EF7)", 
+                background: "linear-gradient(to right, #6C48C5, #ED3EF7)",
                 cursor: "pointer",
                 padding: "2px 2px",
                 borderRadius: "5px",
-                border: "none", 
+                border: "none",
                 backgroundClip: "padding-box",
                 display: "inline-block",
               }}
@@ -70,10 +78,10 @@ export const Nav = () => {
             >
               <span
                 style={{
-                  background: "#fff", 
+                  background: "#fff",
                   padding: "10px 20px",
                   display: "inline-block",
-                  borderRadius: "3px", 
+                  borderRadius: "3px",
                   fontWeight: "bold",
                 }}
               >
@@ -84,8 +92,8 @@ export const Nav = () => {
           <button
             className="btn custom ms-3"
             style={{
-              background: "linear-gradient(to right, #6C48C5, #ED3EF7)", 
-              color: "white", 
+              background: "linear-gradient(to right, #6C48C5, #ED3EF7)",
+              color: "white",
               padding: "10px 20px",
               cursor: "pointer",
               borderRadius: "5px",
