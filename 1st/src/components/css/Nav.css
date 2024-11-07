@@ -1,7 +1,8 @@
 /* Default styling for the logo */
 .navbar-logo {
-    height: 100px;
-    margin-top: 5px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 150px;
   }
   
   /* Responsive styling */
@@ -31,4 +32,11 @@
     border-color: #FF9C73;          
   }
   
+  .nav-item{
+font-size: 25px;
+  }
+
+  .material-symbols-outlined{
+    font-size: 35px;
+  }
   
