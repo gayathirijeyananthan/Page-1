@@ -6,7 +6,7 @@ export const Nav = () => {
   return (
     <nav
       className="navbar navbar-expand-lg"
-      style={{ backgroundColor: "#6A1E55", height: "90px" }}
+      style={{ backgroundColor: "#ffff", height: "90px", position: "fixed" }}
     >
       <div className="container-fluid">
         <img src={logo} alt="logo" className="navbar-logo" />
@@ -31,18 +31,31 @@ export const Nav = () => {
                 className="nav-link active"
                 aria-current="page"
                 href="#"
-                style={{ color: "#FF9C73" }}
+                style={{  }}
               >
-                Home
+                Courses{" "}
               </a>
             </li>
+            <span class="material-symbols-outlined" style={{ paddingTop:"8px"}}>arrow_drop_down</span>
+
+
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: "#FF9C73" }}>
-                Courses
+              <a className="nav-link" href="#" style={{ }}>
+                Teachers{" "}
               </a>
             </li>
+            <span class="material-symbols-outlined" style={{ paddingTop:"8px"}}>arrow_drop_down</span>
+
+
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: "#FF9C73" }}>
+              <a className="nav-link" href="#" style={{}}>
+                Offers{" "}
+              </a>
+            </li>
+            <span class="material-symbols-outlined" style={{ paddingTop:"8px"}}>arrow_drop_down</span>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#" style={{ }}>
                 Contact
               </a>
             </li>
