@@ -24,7 +24,7 @@ export const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul
             className="navbar-nav me-auto mb-2 mb-lg-0"
-            style={{ justifyContent: "center", marginLeft: "300px" }}
+            style={{ justifyContent: "center", marginLeft: "500px" }}
           >
             <li className="nav-item">
               <a
@@ -74,7 +74,7 @@ export const Nav = () => {
             </li>
           </ul>
         </div>
-        <form className="d-flex" role="search" style={{marginLeft:"700px"}}>
+        <form className="d-flex" role="search" style={{marginLeft:"500px"}}>
           <div style={{marginLeft:"20px"}}>
           <button
             className="btn custom"

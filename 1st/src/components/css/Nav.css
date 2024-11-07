@@ -16,6 +16,8 @@
     }
   }
   
+  
+  
   @media (max-width: 768px) {
     .navbar-logo {
       height: 50px;
@@ -34,6 +36,7 @@
   
   .nav-item{
 font-size: 25px;
+
   }
 
   .material-symbols-outlined{
