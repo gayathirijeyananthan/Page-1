@@ -11,6 +11,7 @@ export const Nav = () => {
         height: "90px",
         position: "fixed",
         width: "100%",
+        
       }}
     >
       <div className="container-fluid">

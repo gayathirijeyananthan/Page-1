@@ -8,7 +8,7 @@ export const Hero = () => {
     <div className="first">
 
       <div>
-       <h3 className='text' >Unlock Your Potential with<br></br>  Our Learning Platform</h3>
+       <h3 className='text' >Develop your skills in a <br></br>new and unique way with</h3>
        <p className='text1' style={{color:"#D91656"}}>EduLift</p>
 
       </div>
