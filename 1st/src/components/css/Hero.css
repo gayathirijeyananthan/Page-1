@@ -28,6 +28,8 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:80px;
     font-weight: 600;
+    text-align: justify;
+
 
     
   }
@@ -43,6 +45,21 @@
     font-weight: 600;
     justify-content: left;
     
+  }
+
+  .text3{
+    position: relative;  /* Ensure text is above the overlay */
+    color: #3c054b;
+    align-items: center;  
+    padding-top: 0px;
+    padding-left: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    text-align: justify;
+
+    
+    font-size:20px;
+
   }
 
   .image1{
