@@ -1,6 +1,6 @@
 import React from "react";
 import '../components/css/Hero.css'
-import logo from "../assets/logo.png";
+import hero from "../assets/hero.png";
 
 
 export const Hero = () => {
@@ -8,12 +8,12 @@ export const Hero = () => {
     <div className="first">
 
       <div>
-       <h3 className='text' >Develop your skills in a <br></br>new and unique way with</h3>
+       <h3 className='text' >Develop your skills in a new and unique way with</h3>
        <p className='text1' style={{color:"#D91656"}}>EduLift</p>
 
       </div>
       <div>
-        <img className='image1' src={logo}></img>
+        <img className='image1' src={hero}></img>
       </div>
     </div>
   );
